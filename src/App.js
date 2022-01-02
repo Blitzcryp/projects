@@ -2,8 +2,7 @@ import './App.css';
 import Card from './components/Card.js/Card';
 import { Container, Row } from 'react-bootstrap';
 import Navbar from './components/Card.js/navbar/Navbar';
-import { Routes, Route, Link } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
 import projects from "./utils/projects";
 
 function App() {
