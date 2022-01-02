@@ -16,16 +16,17 @@ export default function Navbar() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Numbers</Nav.Link>
-                            <Nav.Link href="#action2">Text</Nav.Link>
-                            <Nav.Link href="#action2">Networking</Nav.Link>
-                            <Nav.Link href="#action2">Classes</Nav.Link>
-                            <Nav.Link href="#action2">Threading</Nav.Link>
-                            <Nav.Link href="#action2">Web</Nav.Link>
-                            <Nav.Link href="#action2">Files</Nav.Link>
-                            <Nav.Link href="#action2">Databases</Nav.Link>
-                            <Nav.Link href="#action2">Graphics and Multimedia</Nav.Link>
-                            <Nav.Link href="#action2">Games</Nav.Link>
+                            <Nav.Link href="projects-list">Projects List</Nav.Link>
+                            <Nav.Link href="/">Numbers</Nav.Link>
+                            <Nav.Link href="/">Text</Nav.Link>
+                            <Nav.Link href="/">Networking</Nav.Link>
+                            <Nav.Link href="/">Classes</Nav.Link>
+                            <Nav.Link href="/">Threading</Nav.Link>
+                            <Nav.Link href="/">Web</Nav.Link>
+                            <Nav.Link href="/">Files</Nav.Link>
+                            <Nav.Link href="/">Databases</Nav.Link>
+                            <Nav.Link href="/">Graphics and Multimedia</Nav.Link>
+                            <Nav.Link href="/">Games</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </BootstrapNavbar.Offcanvas>
