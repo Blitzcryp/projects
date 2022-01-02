@@ -10,12 +10,13 @@ function App() {
   let projectRenderCards = [];
   let projectsRenderRoutes = [];
   projects.forEach( (project) => {
-    const card = <Card name={project.name} description={project.description} link={project.link}></Card>;
-    const route = <Route path={project.link} element={project.element}>{ project.name }</Route>
-
-    projectRenderCards.push(card);
-    projectsRenderRoutes.push(route);
-
+    if(project.completed === true){
+      const card = <Card name={project.name} description={project.description} link={project.link}></Card>;
+      const route = <Route path={project.link} element={project.element}>{ project.name }</Route>
+  
+      projectRenderCards.push(card);
+      projectsRenderRoutes.push(route);
+    }
   })
 
   return (

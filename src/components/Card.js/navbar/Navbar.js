@@ -12,6 +12,7 @@ export default function Navbar() {
                     placement="end"
                 >
                     <Offcanvas.Header closeButton>
+
                         <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>

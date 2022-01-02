@@ -1,6 +1,8 @@
 import ReverseAString from "../projects/ReverseAString";
 import PigLatin from "../projects/PigLatin";
 import FizzBuzz from "../projects/FizzBuzz";
+import GetMyIp from "../projects/GetMyIp";
+import WeatherMaps from "../projects/WeatherMaps";
 
 const projects = [
     {
@@ -23,6 +25,21 @@ const projects = [
       link: "fizz-buzz",
       element: <FizzBuzz/>,
       description: `Print integers 1 to N, but print “Fizz” if an integer is divisible by 3, “Buzz” if an integer is divisible by 5, and “FizzBuzz” if an integer is divisible by both 3 and 5.`
+    },
+    {
+      completed: true,
+      name: "Get my ip",
+      link: "my-ip",
+      element: <GetMyIp/>,
+      description: "Get my current IP"
+    },
+    {
+      completed: true,
+      name: "Weather in Bucharest",
+      link: "bucharest-weather",
+      element: <WeatherMaps/>,
+      description: "Get weather data in Bucharest"
+      
     }
   ];
 
