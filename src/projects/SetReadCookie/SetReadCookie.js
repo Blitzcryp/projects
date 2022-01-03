@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { Form } from "react-bootstrap";
 import { useCookies } from 'react-cookie';
 
 export default function SetReadCookie(){
-    const [text, setText] = useState("Loading...");
     const [cookies, setCookie] = useCookies(['user']);
 
     return (
