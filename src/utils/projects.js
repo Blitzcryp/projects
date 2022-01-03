@@ -3,6 +3,7 @@ import PigLatin from "../projects/PigLatin";
 import FizzBuzz from "../projects/FizzBuzz";
 import GetMyIp from "../projects/GetMyIp";
 import WeatherMaps from "../projects/WeatherMaps";
+import SetReadCookie from "../projects/SetReadCookie/SetReadCookie";
 
 const projects = [
     {
@@ -34,13 +35,20 @@ const projects = [
       description: "Get my current IP"
     },
     {
-      completed: true,
+      completed: false,
       name: "Weather in Bucharest",
       link: "bucharest-weather",
       element: <WeatherMaps/>,
       description: "Get weather data in Bucharest"
-      
+    },
+    {
+        completed: true,
+        name: "Set and read a cookie",
+        link: "set-read-cookie",
+        element: <SetReadCookie/>,
+        description: "Get weather data in Bucharest"
     }
-  ];
+
+];
 
 export default projects;
